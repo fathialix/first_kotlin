@@ -1,27 +1,27 @@
 fun main(args: Array<String>) {
-    print("Dail MMI Code")
-    var mmi_code:String = readLine()!!.toString()
+    println("Dail MMI Code")
+    var code:String = readLine()!!.toString()
 
-    print("Choose number")
+    println("Choose number")
     var dail: Int = readLine()!!.toInt()
 
 
     if (dail == 1){
         print("Data Deals")
     }
-    if (dail == 2){
+    else if (dail == 2){
         print("Daily Bundles")
     }
-    if (dail == 3){
+    else if (dail == 3){
         print("Weekly Bundles")
     }
-    if (dail == 4){
+    else if (dail == 4){
         print("GO MONTHLY")
     }
-    if (dail == 5){
+    else if (dail == 5){
         print("No Expiry")
     }
     else{
-
+        print("Invalid characters")
     }
 }
