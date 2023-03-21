@@ -1,24 +1,21 @@
 fun main(args: Array<String>) {
-    add()
-    multiply()
-    divide()
+    add(num1 = 400, num2 = 400)
+    multiply(num1 = 100, num2 = 20)
+    divide(num1 = 400, num2 = 20)
 }
 
-fun add(){
-   var num1 = 400
-    var num2 = 400
-    var add = num1 + num2
-    println(add)
+fun add(num1:Int, num2:Int){
+
+    var result = num1 + num2
+    println(result)
 }
-fun multiply(){
-    var num1 = 100
-    var num2 = 20
-    var multiply = num1 * num2
-    println(multiply)
+fun multiply(num1:Int, num2: Int){
+
+    var result = num1 * num2
+    println(result)
 }
-fun divide(){
-    var num1 = 400
-    var num2 = 20
-    var divide = num1 / num2
-    println(divide)
+fun divide(num1:Int, num2: Int){
+
+    var result = num1 / num2
+    println(result)
 }
